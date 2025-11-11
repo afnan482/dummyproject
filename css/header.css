@@ -1,0 +1,16 @@
+body { background-color: #fafafa; margin-bottom: 70px; }
+    nav { box-shadow: none; border-bottom: 1px solid #ddd; }
+    .insta-card { max-width: 640px; margin: 25px auto; border-radius: 10px; overflow: hidden; }
+    .avatar { width: 42px; height: 42px; border-radius: 50%; margin-right: 10px; }
+    .username { font-weight: 600; font-size: 15px; }
+    .card-image img { width: 100%; cursor: pointer; }
+    .card-content { padding: 10px 16px 0 16px; }
+    .action-icons i { margin-right: 10px; cursor: pointer; }
+    .bottom-nav {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: #fff; border-top: 1px solid #ddd;
+      display: flex; justify-content: space-around; align-items: center;
+      height: 60px; z-index: 999;
+    }
+    .bottom-nav i { color: #444; cursor: pointer; }
+    .bottom-nav .active { color: #2196f3; }
