@@ -1,11 +1,11 @@
 <!-- Bottom Navigation -->
 <div class="bottom-nav">
-  <a href="index.php"><i
-      class="material-icons <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">home</i></a>
-  <a href="member.php"><i
-      class="material-icons <?= basename($_SERVER['PHP_SELF']) == 'member.php' ? 'active' : '' ?>">group</i></a>
-  <a href="profile.php"><i
-      class="material-icons <?= basename($_SERVER['PHP_SELF']) == 'profile.php' ? 'active' : '' ?>">person</i></a>
+    <a href="index.php"><i
+            class="material-icons <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">home</i></a>
+    <a href="member.php"><i
+            class="material-icons <?= basename($_SERVER['PHP_SELF']) == 'member.php' ? 'active' : '' ?>">group</i></a>
+    <a href="profile.php"><i
+            class="material-icons <?= basename($_SERVER['PHP_SELF']) == 'profile.php' ? 'active' : '' ?>">person</i></a>
 </div>
 
 <!-- JS -->
