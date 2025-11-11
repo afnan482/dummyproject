@@ -9,7 +9,7 @@
 
   <!-- Panggil file CSS -->
   <link rel="stylesheet" href="css/index.css">
-  
+
 </head>
 <body>
 
@@ -68,6 +68,6 @@
 </div>
 
 <!-- Panggil file JS -->
-<script src="js/script.js"></script>
+<script src="js/index.js"></script>
 
 <?php include 'includes/footer.php'; ?>
