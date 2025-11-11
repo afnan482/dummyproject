@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +13,12 @@
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- Link File CSS -->
-   <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/header.css">
 </head>
+
 <body>
 
-<nav class="white">
+  <nav class="white">
     <div class="nav-wrapper container">
       <a href="#" class="brand-logo black-text" style="font-family: monospace;">InstaDummy</a>
       <ul class="right">
