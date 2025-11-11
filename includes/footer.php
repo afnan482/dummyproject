@@ -1,41 +1,6 @@
 <!-- Bottom Navigation -->
-<style>
-        .bottom-nav {
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                background: #fff;
-                border-top: 1px solid #ddd;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                padding: 8px 0;
-                z-index: 1000;
-        }
-
-        .bottom-nav a {
-                color: #666;
-                text-align: center;
-                flex: 1;
-        }
-
-        .bottom-nav i {
-                font-size: 28px;
-                transition: color 0.3s;
-        }
-
-        .bottom-nav i.active {
-                color: #2196F3;
-                /* Warna biru untuk ikon aktif */
-        }
-
-        /* Tambahan agar tidak ketutup konten di bawah */
-        body {
-                padding-bottom: 60px;
-        }
-</style>
-
+ <link rel="stylesheet" href="css/footer.css">
+ 
 <div class="bottom-nav">
         <a href="index.php">
                 <i class="material-icons <?= basename($_SERVER['PHP_SELF']) === 'index.php' ? 'active' : '' ?>">home</i>
